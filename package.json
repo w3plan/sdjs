@@ -1,0 +1,47 @@
+{
+  "name": "sdjs",
+  "version": "1.2.0",
+  "description": "SDJS is a tool which describes data presence, data type and data constraint to a JSON object",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "index.js",
+    "lib/*.js",
+    "test/*.js"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "mocha": "^7.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/w3plan/sdjs.git"
+  },
+  "homepage": "https://github.com/w3plan/sdjs/",
+  "keywords": [
+    "presence",
+    "type",
+    "constraint",
+    "schema",
+    "sdjs",
+    "sdjs-web",
+    "json"
+  ],
+  "bugs": {
+    "url": "https://github.com/w3plan/sdjs/issues/",
+    "email": "richard.li@w3plan.net"
+  },
+  "author": {
+    "name": "Richard Li",
+    "email": "richard.li@w3plan.net"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://www.opensource.org/licenses/mit-license.php"
+  }
+}
