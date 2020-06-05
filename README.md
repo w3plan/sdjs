@@ -30,11 +30,10 @@ To see [Self Description JSON Schema](https://www.w3plan.net/pfsdjs/ "SDJSchema 
   
   // supposing that sdjsObj is a JSON object with Self Description JSON Schema
   if ( valiSdjs(sdjsObj) ) {
-    console.log("validation failed");
+    console.log("validation succeeded.");
   } else {
-    console.log("validation succeeded");
+    console.log("validation failed.");
   }  
-  
 ```
 
 
